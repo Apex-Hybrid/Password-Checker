@@ -36,4 +36,5 @@ def main(args):
             print(f'{password} was not found, You Good Dog!')
 
 
-main(sys.argv[1:])
+if __name__ == '__main__':
+    main(sys.argv[1:])
